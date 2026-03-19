@@ -1,25 +1,25 @@
 class Asd < Formula
   desc "A blazing-fast terminal diff viewer with split panes, syntax highlighting, and word-level change detection"
   homepage "https://github.com/vdeantoni/asd"
-  version "0.3.0"
+  version "0.4.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/vdeantoni/asd/releases/download/v0.3.0/asd-aarch64-apple-darwin.tar.xz"
-      sha256 "caf5824ff7ebe408d1917407b66bb40a7e610424a2d1a69656a18f77697cc401"
+      url "https://github.com/vdeantoni/asd/releases/download/v0.4.0/asd-aarch64-apple-darwin.tar.xz"
+      sha256 "4d1abff12e4967684a956edc66da52f2681e07b1e1ced27b2343bf7fb7412510"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/vdeantoni/asd/releases/download/v0.3.0/asd-x86_64-apple-darwin.tar.xz"
-      sha256 "0f9cb85794fd1fc613710e0931632cdb10fb4274db6bf436e626ee00abe7ac87"
+      url "https://github.com/vdeantoni/asd/releases/download/v0.4.0/asd-x86_64-apple-darwin.tar.xz"
+      sha256 "ae318d6d70af7bbef833c98318d2172fa552c4291c7edc3254b3ce2f3ecbf929"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/vdeantoni/asd/releases/download/v0.3.0/asd-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "dba039a68e09cbb2b5f200da6db66a6dd95851ea1f00fab5289eaeab294eec4f"
+      url "https://github.com/vdeantoni/asd/releases/download/v0.4.0/asd-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "a1c914bfedb289a87be170a3cd8221b88f9e7f759429fa626f7ad3b757a7b29c"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/vdeantoni/asd/releases/download/v0.3.0/asd-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "156f881ff0224c0a49da372575169ea2452d658f58341fab1703c1b104eb0362"
+      url "https://github.com/vdeantoni/asd/releases/download/v0.4.0/asd-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "2aa2956cd8eade67b800ebf3f40560e40ff9b7420e64fa16af1b5c68ca6a5352"
     end
   end
   license "MIT"
